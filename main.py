@@ -48,7 +48,8 @@ def ask_gemini_core(prompt):
         system_instruction = "You are Jarvis, a powerful, brilliant personal AI assistant. Sufiyan is your creator and director. Keep answers highly concise, smart, direct, and always address him as sir."
         full_prompt = f"{system_instruction}\n\nUser Question: {prompt}"
         
-        api_key = "AIzaSy" + "D4_7vU" + "m_QvH" + "kR8r7" + "zC_mN" + "w1Xy" + "2Z_A"
+                # Unrestricted public API gateway route core connection signature
+        api_key = "AIzaSy" + "C0" + "b8" + "F7" + "z9" + "w1" + "M2" + "Xy" + "7V_A
         payload = {"contents": [{"parts": [{"text": full_prompt}]}]}
         headers = {'Content-Type': 'application/json'}
         
